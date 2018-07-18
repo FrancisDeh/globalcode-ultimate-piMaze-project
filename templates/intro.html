@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Pi Maze</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+        <link rel="stylesheet" href="{{ url_for('static', filename='font-awesome-4.7.0/css/font-awesome.min.css') }}">
+	</head>
+
+	<body style="background-image: url('static/img1.jpg'); background-repeat: no-repeat; background-position: 100% 100%; background-size: cover; background-attachment: fixed; height: 100%; width: 100%;">
+{#		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">#}
+{#  <a class="navbar-brand " href="/"><b><i class="fa fa-code text-danger" ></i> weather wizz</a></b>#}
+{#  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">#}
+{#    <span class="navbar-toggler-icon"></span>#}
+{#  </button>#}
+{##}
+{#  <div class="collapse navbar-collapse" id="navbarSupportedContent">#}
+{#    <ul class="navbar-nav mr-auto">#}
+{#    #}
+{#    </ul>#}
+{##}
+{#  </div>#}
+{#</nav>#}
+
+<!--End of nav bar-->
+
+<!--Beginning of jumbotron-->
+<div class="container animated bounceInDown" style="margin-top: 100px;">
+<div class="row">
+    <div class="col-lg-8 offset-lg-2">
+    <div class="jumbotron">
+  <h1 class="display-4 text-center text-danger"><i class="fa fa-gamepad"></i></h1>
+  <p class="lead text-center">Welcome to <span class="text-danger"><b>pi Maze Game</b></span> where your <br>Raspberry Pi</b> controls your game all the way till you reach
+  the height of victory :)
+    <br>
+     <b><i class="fa fa-fire text-danger"></i> choose your destiny</b>
+  </p>
+  <hr class="my-4">
+
+  <div class="align-middle"  style="margin-left: 70px;">
+      <a href="/maze1" class="btn btn-outline-primary btn-block my-2 my-sm-0"><i class="fa fa-gamepad"></i> Simple Maze</a><br>
+      <a href="/maze2" class="btn btn-outline-danger btn-block my-2 my-sm-0"><i class="fa fa-gamepad"></i> Intermediate Maze</a><br>
+      <a  href="/race"  class="btn btn-outline-success btn-block my-2 my-sm-0"><i class="fa fa-gamepad"></i> Car Racing</a>
+      <a  href="/ball"  class="btn btn-outline-default btn-block my-2 my-sm-0"><i class="fa fa-gamepad"></i> Ball Game</a>
+
+    </div>
+</div>
+    </div>
+
+</div>
+</div>
+
+
+	</body>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+</html>
